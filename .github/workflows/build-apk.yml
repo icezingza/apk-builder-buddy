@@ -32,8 +32,8 @@ jobs:
     - name: Setup Capacitor and Android (If missing)
       run: |
         if [ ! -d "android" ]; then
-          npm install @capacitor/android
-          npx cap add android
+          npm install @capacitor/cli @capacitor/core @capacitor/android
+          npx @capacitor/cli add android
         fi
 
     - name: Sync Capacitor
