@@ -1,0 +1,9 @@
+{
+  "appId": "com.namo.ai.control",
+  "appName": "Namo AI Control Center",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
